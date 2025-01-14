@@ -1,0 +1,21 @@
+                #Logical Printing
+
+n1=int(input("enter three numbers:"))
+n2=int(input())
+n3=int(input())
+print("number 1",n1)
+print("number 2",n2)
+print("number 3",n3)
+print(n1>n2)
+print(n2==n3)
+print(n1<n2 and n2==n3)
+
+x1=int(input("enter three numbers:"))
+x2=int(input())
+x3=int(input())
+print("number 1",x1)
+print("number 2",x2)
+print("number 3",x3)
+print(x1>x2)
+print(x2==x3)
+print(x1<x2 and x2==x3)
