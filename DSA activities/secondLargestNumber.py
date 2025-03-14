@@ -7,8 +7,8 @@ for i in nums:
     if i > largest:
         second_largest = largest
         largest = i
-    # elif i > second_largest and i != largest:
-    #     third_largest = second_largest
-    #     second_largest = i
+    elif i > second_largest and i != largest:
+    	second_largest = i
+   
     
 print(largest,second_largest)

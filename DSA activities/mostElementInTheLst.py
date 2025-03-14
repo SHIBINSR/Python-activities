@@ -10,12 +10,12 @@ for i in nums:
         
 print(empty)
 
-empty_key = 0
-empty_value = 0
+key = 0
+value = 0
 
 for i,j in empty.items():
-    if j>empty_value:
-        empty_value = j
-        empty_key = i
+    if j>value:
+        value = j
+        key = i
 
-print(f"The key:{empty_key} have more elements:{empty_value}")
+print(f"The key:{key} have more elements:{value}")
